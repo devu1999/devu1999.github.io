@@ -5,14 +5,12 @@
     Author: Ryan Fitzgerald
     Repo: https://github.com/RyanFitzgerald/devportfolio-template
     Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
 /*
     File Contents:
-
         1. Variables
         2. Mixins
         3. Global Styles
@@ -34,7 +32,7 @@
 */
 
 // Define base and accent colors
-$base-color: #020323;
+$base-color: #3498db;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -722,33 +720,6 @@ footer {
     }
 }
 
-#frameworks {
-    padding: 50px 15px;
-    text-align: center;
-
-    h2 {
-        color: $heading;
-        margin-bottom: 50px;
-    }
-
-    ul {
-        display: block;
-        margin: 0 auto;
-        padding: 0;
-        max-width: 800px;
-    }
-
-    li {
-        display: inline-block;
-        margin: 7px;
-        padding: 5px 10px;
-        color: $heading;
-        background: darken($background-alt, 5%);
-        list-style: none;
-        cursor: default;
-        font-size: 1.2em;
-    }
-}
 /*
     -------------------------------
     ----- 10. Contact Styles -----
